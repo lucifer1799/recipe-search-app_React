@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import React, { useEffect, useState } from "react";
 import Recipe from "./Recipe";
@@ -36,7 +35,6 @@ function App() {
     setSearch("");
   };
 
-  console.log(recipes)
   return (
     
     <div className="App">

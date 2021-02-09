@@ -16,7 +16,7 @@ function Mymodal(props) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <img src={props.imgUrl} />
+          <img src={props.imgUrl} alt='' />
           <h4>Calories : {Math.ceil(props.calories)}</h4>
           {props.ingredients.map((ele,index) => (
             <p key={index}>{ele.text}</p>
